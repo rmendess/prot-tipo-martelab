@@ -1,3 +1,82 @@
-.header-top{
-    background-color: red;
+header-container {
+  background: linear-gradient(to bottom, #1e90ff, #00008b);
+  color: #fff;
+  text-align: left;
+  padding: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-container h1 {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.positionUsername {
+  position: absolute;
+  top: 0;
+  padding-top: clamp(240px, 10vh, 240px);
+  padding-left: 20px;
+  font-size: clamp(16px, 2vw, 20px);
+}
+
+.wave-container {
+  width: 100%;
+}
+.wave-container img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  display: block;
+}
+@media (max-width: 768px) {
+  .positionUsername {
+    font-size: 14px;
+    padding-top: 220px;
+  }
+  .header-container h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 675px) {
+  .positionUsername {
+    font-size: 25px;
+    padding-top: 180px;
+  }
+  .header-container h1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 550px) {
+  .positionUsername {
+    font-size: 12px;
+    padding-top: 150px;
+  }
+  .header-container h1 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 470px) {
+  .positionUsername {
+    font-size: 12px;
+    padding-top: 120px;
+  }
+  .header-container h1 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 385px) {
+  .positionUsername {
+    font-size: 12px;
+    padding-top: 90px;
+  }
+ 
 }
