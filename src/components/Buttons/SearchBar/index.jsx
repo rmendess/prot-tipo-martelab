@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 import './styles.css';
 
-const SearchButton = ({ onSearch }) => {
+const SearchBar = ({ onSearch }) => {
   const [inputValue, setInputValue] = useState('');
 
-  const handleSearch = () => {
-    if (onSearch) onSearch(inputValue);
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+  };
+
+  const handleSearchClick = () => {
+    if (onSearch) {
+      onSearch(inputValue); // Executa a busca
+    }
   };
 
   return (
@@ -14,13 +20,12 @@ const SearchButton = ({ onSearch }) => {
         type="text"
         placeholder="Buscar Paciente"
         value={inputValue}
-        onChange={(e) => setInputValue(e.target.value)}
+        onChange={handleInputChange}
+        className="search-input"
       />
-      <button onClick={handleSearch}>Buscar</button>
+      <button onClick={handleSearchClick}>Buscar</button>
     </div>
-
-    
   );
 };
 
-export default SearchButton;
+export default SearchBar;

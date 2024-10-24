@@ -15,6 +15,7 @@ input {
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
+  flex: 1;
 }
 
 
@@ -37,3 +38,4 @@ button:hover {
     border-color: #1e90ff;
     box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
   }
+  

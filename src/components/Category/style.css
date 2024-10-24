@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 5px;
     margin-top: 30px;
     width: 100%;
   }
@@ -14,14 +14,17 @@
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
+    
   }
   
-  .category-section h2 {
-    margin-bottom: 10px;
+  .category-container h2 {
+    margin-top: 30px;
     font-family: Arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #00008b;
     font-weight: bold;
+    
+    
   }
   
   .buttons-container {
@@ -37,11 +40,16 @@
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
+    font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+    width: 200px;
     transition: background-color 0.3s ease;
+
   }
   
   .category-button:hover {
     background-color: #00008b;
+    transform: scale(1.1);
+    transition: all 0.5s;
   }

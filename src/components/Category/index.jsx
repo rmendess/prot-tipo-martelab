@@ -13,9 +13,12 @@ const categories = [
 const Category = () => {
   return (
     <div className="category-container">
+
       {categories.map((category) => (
+        <> 
+                 <h2>{category.title}</h2>
         <div key={category.title} className="category-section">
-          <h2>{category.title}</h2>
+
           <div className="buttons-container">
             {category.buttons.map((button) => (
               <button key={button} className="category-button">
@@ -24,6 +27,7 @@ const Category = () => {
             ))}
           </div>
         </div>
+        </>
       ))}
     </div>
   );
