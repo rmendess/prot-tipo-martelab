@@ -1,0 +1,25 @@
+.header-container {
+  position: relative; /* Define o contexto de posicionamento */
+  width: 100%;
+  height: 480px; /* Altura total do SVG */
+  overflow: hidden;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.wave-text{
+  
+  position: absolute;
+  left: 60px; /* Ajusta a distância do lado esquerdo */
+  bottom: 100px; /* Posiciona o texto em cima da parte inferior da onda */
+  color: #1e90ff;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  text-align: left;
+}
+
+
+
