@@ -20,6 +20,137 @@
   font-size: 40px;
   text-align: left;
 }
+@media (min-width:300px) and (max-width: 360px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    left:18px;
+    bottom:8px
+  }
+  .header-container {
+    position: relative; 
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+  }
+}
 
-
+@media (min-width:361px) and (max-width: 414px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    left:18px;
+    bottom:8px
+  }
+  .header-container {
+    position: relative; 
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 415px) and (max-width: 540px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    left:18px;
+    bottom:10%;
+    margin-top: 50px;
+  }
+  .header-container {
+    position: relative; 
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 820px)and (max-width: 920px){
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    left:18px;
+    bottom:12%
+  }
+  .header-container {
+    position: relative; 
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 541px) and (max-width:600px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    left:18px;
+    bottom:10%;
+    margin-top: 50px;
+  }
+  .header-container {
+    position: relative; 
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+  }
+}
+ @media(min-width:601px) and (max-width:768px){
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    left:18px;
+    bottom:27px;
+    margin-top: 30px;
+  }
+  .header-container {
+    position: relative; 
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    
+  }
+ }
+ @media(min-width:769px) and (max-width:819px){
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    left:18px;
+    bottom:13%
+  }
+  .header-container {
+    position: relative; 
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+  }
+ }
+ @media(min-width:921px) and (max-width:1024px){
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    left:18px;
+    bottom:15%
+  }
+  .header-container {
+    position: relative; 
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+  }
+ }
 

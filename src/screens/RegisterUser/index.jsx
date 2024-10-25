@@ -28,6 +28,8 @@ const RegisterUser = () => {
     localStorage.setItem('pacienteData', JSON.stringify(formData));
     alert('Dados salvos com sucesso!');
   };
+  
+  
 
   return (
     <div className="form-container">

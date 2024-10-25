@@ -56,3 +56,132 @@ input:focus {
   .save-button:hover {
     background-color: #00008b;
   }
+  @media (min-width:300px) and (max-width: 360px){
+    .form-grid{
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      }
+      .texto{
+        font-size: 25px;
+      }
+      .save-button{
+        width:30%;
+        margin-top: 20px;
+      }
+  }
+  @media(max-width:375px){
+    .form-grid{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    }
+    .texto{
+      font-size: 25px;
+    }
+    .save-button{
+      width:30%;
+      margin-top: 20px;
+    }
+  }
+  @media(max-width:414px){
+    .form-grid{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    }
+    .texto{
+      font-size: 25px;
+    }
+    .save-button{
+      width:30%;
+      margin-top: 20px;
+    }
+  }
+
+  @media(min-width: 415px) and (max-width:540px){
+    .form-grid{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    }
+    .texto{
+      font-size: 25px;
+    }
+    .save-button{
+      width:30%;
+      margin-top: 20px;
+    }
+  }
+  @media (min-width: 541px) and (max-width:600px){
+    .form-grid{
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      }
+      .texto{
+        font-size: 25px;
+      }
+      .save-button{
+        width:30%;
+        margin-top: 20px;
+      }
+  }
+  @media(min-width: 820px)and (max-width:920px){
+    .form-grid{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    }
+    .texto{
+      font-size: 25px;
+    }
+    .save-button{
+      width:30%;
+      margin-top: 20px;
+    }
+  }
+  @media(min-width:601px) and (max-width:768px){
+    .form-grid{
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      }
+      .texto{
+        font-size: 25px;
+      }
+      .save-button{
+        width:30%;
+        margin-top: 20px;
+      }
+  }
+  @media(min-width:769px) and (max-width:819px){
+    .form-grid{
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      }
+      .texto{
+        font-size: 25px;
+      }
+      .save-button{
+        width:30%;
+        margin-top: 20px;
+      }
+  }
+  @media(min-width:921px) and (max-width:1024px){
+    .form-grid{
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      }
+      .texto{
+        font-size: 25px;
+      }
+      .save-button{
+        width:30%;
+        margin-top: 20px;
+      }
+  }
+
+  

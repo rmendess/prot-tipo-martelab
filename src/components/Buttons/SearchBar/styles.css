@@ -7,8 +7,6 @@
   height: 20%;
   margin-top: 10px;
 }
-
-
 input {
   width: 300px;
   padding: 10px;
@@ -37,5 +35,83 @@ button:hover {
  input:focus {
     border-color: #1e90ff;
     box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+  }
+  @media (min-width: 343px) and (max-width:361px){
+    .search-container {
+      display: flex; 
+      flex-direction: row; 
+      gap: 10px; 
+      justify-content: flex-start; 
+      width: 35px; 
+      height: 35px;
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 375px) {
+    .search-container {
+      display: flex; 
+      flex-direction: row; 
+      gap: 10px; 
+      justify-content: flex-start; 
+      width: 35px; 
+      height: 35px;
+      margin-top: 10px;
+    }
+  }
+ 
+  @media (min-width: 415px) and  (max-width: 540px) {
+    .search-container {
+      display: flex; 
+      flex-direction: row; 
+      gap: 10px; 
+      justify-content: flex-start; 
+      width: 35px; 
+      height: 35px;
+      margin-top: 10px;
+    }
+  }
+  @media (min-width: 541px) and (max-width:600px){
+    .search-container {
+      display: flex; 
+      flex-direction: row; 
+      gap: 10px; 
+      justify-content: flex-start; 
+      width: 35px; 
+      height: 35px;
+      margin-top: 10px;
+    }
+  }
+  @media (min-width: 820px)and (max-width:920px){
+    .search-container {
+      display: flex; 
+      flex-direction: row; 
+      gap: 10px; 
+      justify-content: flex-start; 
+      width: 35px; 
+      height: 35px;
+      margin-top: 10px;
+    }
+  }
+  @media(min-width:769px) and (max-width:819px){
+    .search-container {
+      display: flex; 
+      flex-direction: row; 
+      gap: 10px; 
+      justify-content: flex-start; 
+      width: 35px; 
+      height: 35px;
+      margin-top: 10px;
+    }
+  }
+  @media(min-width:921px) and (max-width:1024px){
+    .search-container {
+      display: flex; 
+      flex-direction: row; 
+      gap: 10px; 
+      justify-content: flex-start; 
+      width: 35px; 
+      height: 35px;
+      margin-top: 10px;
+    }
   }
   
