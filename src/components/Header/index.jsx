@@ -23,12 +23,7 @@ const Header = () => {
         </defs>
 
         {/* Parte Inferior com Gradiente Radial */}
-        <rect
-          y='60'
-          width="1440"
-          height="320"
-          fill="url(#radialGradient)"
-        />
+        <rect y="60" width="1440" height="320" fill="url(#radialGradient)" />
 
         {/* Onda com Gradiente Linear */}
         <path
@@ -38,7 +33,7 @@ const Header = () => {
         ></path>
       </svg>
 
-      <h1 className='wave-text'>
+      <h1 className="wave-text">
         Bem Vindo Dra. <span className="highlight">Simone</span>
       </h1>
     </div>

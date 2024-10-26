@@ -10,7 +10,7 @@ const SearchBar = ({ onSearch }) => {
 
   const handleSearchClick = () => {
     if (onSearch) {
-      onSearch(inputValue); // Executa a busca
+      onSearch(inputValue);
     }
   };
 
