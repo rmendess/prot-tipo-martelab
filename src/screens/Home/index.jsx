@@ -31,18 +31,19 @@ const Home = () => {
     <div className="home-container">
       <Header />
       <div className="align">
+        <div className="seaarch-align"> 
         <div className="search-wrapper">
           <SearchBar onSearch={handleSearch} />
         </div>
-
+        </div>
         {showPatientOptions && (
-          <div>
+          <div className="alignData">
             <div className="patient-list">
               <h3>Dados do paciente</h3>
               <ul>
                 <li className="patient-item">
-                  <strong>Nome:</strong> Romulo | <strong>Idade:</strong> 18 |{" "}
-                  <strong>Condição:</strong> Gripe
+                  <strong>Nome:</strong> Romulo<br/><strong>Idade:</strong> 18<br/> {" "}
+                  <strong>ID-HUBCAS: </strong> 000003 
                 </li>
               </ul>
             </div>

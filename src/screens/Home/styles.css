@@ -2,8 +2,14 @@
   width: 85%;
   display: flex;
   justify-content: flex-start;
+  align-items: end;
 }
-
+.seaarch-align{
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  width: 100%;
+}
 .home-container {
   padding-bottom: 20px;
 }
@@ -13,60 +19,69 @@
   flex-direction: row;
   gap: 10px;
   align-items: center;
-  justify-content: flex-end;
-  width: 90.7%;
-  bottom: 40.5%;
+  width: 100%;
+  bottom: 70px;
+  margin-top: 5%;
 }
-
+.alignData{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .patient-button {
   background-color: #1e90ff;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding:10px;
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
   transition: 0.3s ease;
+  width: 150px;
+  
 }
 
 .align {
   display: flex;
-  align-items: center;
   margin: 0 55px;
+  width: 90%;
 }
-
 .patient-button:hover {
   background-color: #00008b;
 }
 .patient-list {
   display: flex;
   flex-direction: column;
-  margin-left: 22px;
+  margin-left: 2px;
   margin-bottom: 10px;
+  margin-top: 12%;
 }
-
 @media (min-width: 360px) and (max-width: 414px) {
+  .patient-button{
+    width: 65%;
+  }
   .patient-list {
-    margin-top: 10px;
-    margin-left: 0px;
+    margin: 30% 0;
+    width: 200px;
   }
   .search-wrapper {
     width: 100%;
     display: flex;
   }
-
   .patient-options {
     flex-direction: column;
     display: flex;
     margin-top: 10px;
     align-items: start;
-    width: 90%;
+    width: 260px;
+    
   }
 
   .align {
     flex-direction: column;
     align-items: start;
-    width: 70%;
+    width: 80%;
     margin: 1px 16px 16px;
   }
 }
@@ -91,8 +106,8 @@
     margin: 1px 16px 16px;
   }
   .patient-list {
-    margin-top: 10px;
-    margin-left: 0px;
+    margin: 30% 0;
+    width: 200px;
   }
   .patient-button {
     width: 65%;
@@ -122,8 +137,8 @@
     width: 65%;
   }
   .patient-list {
-    margin-top: 10px;
-    margin-left: 0px;
+    margin: 30% 0;
+    width: 200px;
   }
 }
 @media (min-width: 820px) and (max-width: 920px) {
@@ -132,8 +147,8 @@
     display: flex;
   }
   .patient-list {
-    margin-top: 10px;
-    margin-left: 0px;
+    margin: 30% 0;
+    width: 200px;
   }
 
   .patient-options {
@@ -177,15 +192,19 @@
   .patient-button {
     width: 65%;
   }
+  .patient-list {
+    margin: 30% 0;
+    width: 200px;
+  }
 }
-@media (min-width: 769px) and (max-width: 819px) {
+@media (min-width: 769px) and (max-width: 921px) {
   .search-wrapper {
     width: 100%;
     display: flex;
   }
   .patient-list {
-    margin-top: 10px;
-    margin-left: 0px;
+    margin: 30% 0;
+    width: 200px;
   }
 
   .patient-options {
@@ -212,8 +231,8 @@
     display: flex;
   }
   .patient-list {
-    margin-top: 10px;
-    margin-left: 0px;
+    margin: 30% 0;
+    width: 200px;
   }
 
   .patient-options {
@@ -234,3 +253,202 @@
     width: 65%;
   }
 }
+@media (min-width: 1025px) and (max-width: 1125px) {
+  .search-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  .patient-list {
+    margin: 30% 0;
+    width: 200px;
+  }
+
+  .patient-options {
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    align-items: start;
+    width: 275px;
+  }
+
+  .align {
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    margin: 1px 16px 16px;
+  }
+  .patient-button {
+    width: 65%;
+  }
+}
+@media (min-width: 1126px) and (max-width: 1226px) {
+  .search-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  .patient-list {
+    margin: 30% 0;
+    width: 200px;
+  }
+
+  .patient-options {
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    align-items: start;
+    width: 275px;
+  }
+
+  .align {
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    margin: 1px 16px 16px;
+  }
+  .patient-button {
+    width: 65%;
+  }
+}
+@media (min-width: 1227px) and (max-width: 1327px) {
+  .search-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  .patient-list {
+    margin: 30% 0;
+    width: 200px;
+  }
+
+  .patient-options {
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    align-items: start;
+    width: 275px;
+  }
+
+  .align {
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    margin: 1px 16px 16px;
+  }
+  .patient-button {
+    width: 65%;
+  }
+}
+@media (min-width: 1328px) and (max-width: 1428px) {
+  .search-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  .patient-list {
+    margin: 30% 0;
+    width: 200px;
+  }
+
+  .patient-options {
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    align-items: start;
+    width: 275px;
+  }
+
+  .align {
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    margin: 1px 16px 16px;
+  }
+  .patient-button {
+    width: 65%;
+  }
+}
+@media (min-width: 1429px) and (max-width: 1529px) {
+  .search-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  .patient-list {
+    margin: 30% 0;
+    width: 200px;
+  }
+
+  .patient-options {
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    align-items: start;
+    width: 275px;
+  }
+
+  .align {
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    margin: 1px 16px 16px;
+  }
+  .patient-button {
+    width: 65%;
+  }
+}
+@media (min-width: 1530px) and (max-width: 1630px) {
+  .search-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  .patient-list {
+    margin: 30% 0;
+    width: 200px;
+  }
+
+  .patient-options {
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    align-items: start;
+    width: 275px;
+  }
+
+  .align {
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    margin: 1px 16px 16px;
+  }
+  .patient-button {
+    width: 65%;
+  }
+}
+@media (min-width: 1631px) and (max-width: 1731px) {
+  .search-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  .patient-list {
+    margin: 30% 0;
+    width: 200px;
+  }
+
+  .patient-options {
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+    align-items: start;
+    width: 275px;
+  }
+
+  .align {
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    margin: 1px 16px 16px;
+  }
+  .patient-button {
+    width: 65%;
+  }
+}
+
+
+

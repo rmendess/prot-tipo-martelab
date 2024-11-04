@@ -13,7 +13,7 @@
 .wave-text {
   position: absolute;
   left: 60px; /* Ajusta a distância do lado esquerdo */
-  bottom: 100px; /* Posiciona o texto em cima da parte inferior da onda */
+  bottom: 3em; /* Posiciona o texto em cima da parte inferior da onda */
   color: #1e90ff;
   font-family: Arial, sans-serif;
   font-size: 40px;
@@ -26,12 +26,12 @@
     font-family: Arial, sans-serif;
     font-size: 20px;
     left: 18px;
-    bottom: 8px;
+    bottom: 5%;
   }
   .header-container {
     position: relative;
     width: 100%;
-    height: 80px;
+    height: 100%;
     overflow: hidden;
   }
 }
@@ -43,16 +43,33 @@
     font-family: Arial, sans-serif;
     font-size: 20px;
     left: 18px;
-    bottom: 8px;
+    bottom: 11%;
   }
   .header-container {
     position: relative;
     width: 100%;
-    height: 90px;
+    height: 100%;
     overflow: hidden;
   }
 }
-@media (min-width: 415px) and (max-width: 540px) {
+@media (min-width: 415px) and (max-width: 460px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    left: 18px;
+    bottom: 10%;
+    margin-top: 50px;
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 461px) and (max-width: 499px) {
   .wave-text {
     position: absolute;
     color: #1e90ff;
@@ -65,7 +82,24 @@
   .header-container {
     position: relative;
     width: 100%;
-    height: 110px;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 500px) and (max-width: 540px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    left: 18px;
+    bottom: 10%;
+    margin-top: 50px;
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
   }
 }
@@ -81,7 +115,7 @@
   .header-container {
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 100%;
     overflow: hidden;
   }
 }
@@ -92,13 +126,13 @@
     font-family: Arial, sans-serif;
     font-size: 24px;
     left: 18px;
-    bottom: 10%;
+    bottom: 12%;
     margin-top: 50px;
   }
   .header-container {
     position: relative;
     width: 100%;
-    height: 130px;
+    height: 100%;
     overflow: hidden;
   }
 }
@@ -109,29 +143,29 @@
     font-family: Arial, sans-serif;
     font-size: 24px;
     left: 18px;
-    bottom: 27px;
+    bottom: 17%;
     margin-top: 30px;
   }
   .header-container {
     position: relative;
     width: 100%;
-    height: 160px;
+    height: 100%;
     overflow: hidden;
   }
 }
-@media (min-width: 769px) and (max-width: 819px) {
+@media (min-width: 769px) and (max-width: 921px) {
   .wave-text {
     position: absolute;
     color: #1e90ff;
     font-family: Arial, sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     left: 18px;
-    bottom: 13%;
+    bottom: 10%;
   }
   .header-container {
     position: relative;
     width: 100%;
-    height: 180px;
+    height: 100%;
     overflow: hidden;
   }
 }
@@ -147,7 +181,119 @@
   .header-container {
     position: relative;
     width: 100%;
-    height: 230px;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1125px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    left: 18px;
+    bottom: 15%;
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1126px) and (max-width: 1226px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    left: 18px;
+    bottom: 15%;
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1227px) and (max-width: 1327px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    left: 18px;
+    bottom: 15%;
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1328px) and (max-width: 1428px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    left: 18px;
+    bottom: 15%;
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1429px) and (max-width: 1529px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    left: 18px;
+    bottom: 15%;
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1530px) and (max-width: 1630px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    left: 18px;
+    bottom: 15%;
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1631px) and (max-width: 1731px) {
+  .wave-text {
+    position: absolute;
+    color: #1e90ff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    left: 18px;
+    bottom: 15%;
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
   }
 }

@@ -168,3 +168,140 @@
     overflow-y: auto;
   }
 }
+@media (min-width: 1025px) and (max-width: 1125px) {
+  .modal-close-button {
+    padding: 10px;
+    font-size: 70%;
+  }
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1126px) and (max-width: 1226px) {
+  .modal-close-button {
+    padding: 10px;
+    font-size: 70%;
+  }
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1227px) and (max-width: 1327px) {
+  .modal-close-button {
+    padding: 10px;
+    font-size: 70%;
+  }
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1328px) and (max-width: 1428px) {
+  .modal-close-button {
+    padding: 10px;
+    font-size: 70%;
+  }
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1429px) and (max-width: 1529px) {
+  .modal-close-button {
+    padding: 10px;
+    font-size: 70%;
+  }
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1530px) and (max-width: 1630px) {
+  .modal-close-button {
+    padding: 10px;
+    font-size: 70%;
+  }
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1631px) and (max-width: 1731px) {
+  .modal-close-button {
+    padding: 10px;
+    font-size: 70%;
+  }
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1732px) and (max-width: 1832px) {
+  .modal-close-button {
+    padding: 10px;
+    font-size: 70%;
+  }
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+}
+
